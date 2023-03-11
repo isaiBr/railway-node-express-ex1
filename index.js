@@ -27,9 +27,9 @@ app.use(bodyParse.json());
 
 app.get('/',(req, res)=>{
   res.send('Hola Maje mi amor como estaaassssss?');
-  res.send('Beso');
-  res.send('Xico');
-  res.send('Hola');
+  // res.send('Beso');
+  // res.send('Xico');
+  // res.send('Hola');
 });
 
 // app.get('/nueva-ruta',(req, res)=>{
